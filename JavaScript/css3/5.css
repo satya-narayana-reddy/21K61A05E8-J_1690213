@@ -1,0 +1,7 @@
+.background-image {
+    border: 1px solid black;
+    height: 150px;
+    width: 100px;
+    background: url('https://appian.com/adobe/dynamicmedia/deliver/dm-aid--36191fb0-b276-4de6-b33b-e5731b43d593/logo-wipro-1.png?preferwebp=true&quality=85&width=1200') no-repeat center center;
+    background-size: cover;
+}

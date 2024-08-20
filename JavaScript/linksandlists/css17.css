@@ -1,0 +1,14 @@
+
+        a:link {
+            background-color: #FF0000; 
+            color: white; 
+        }
+        a:visited {
+            background-color: #EEFF00; 
+        }
+        a:hover {
+            background-color: #F0F0F0; 
+        }
+        a:active {
+            background-color: #3000FF; 
+        }

@@ -1,0 +1,9 @@
+
+        .styled-div {
+            font-family: Verdana, sans-serif;
+            font-style: italic;
+            font-size: 20px;
+            text-align: left;
+            font-weight: bold;
+            color: red;
+        }

@@ -1,0 +1,9 @@
+
+        .bordered-text {
+            padding: 20px;
+            background: url('https://etimg.etb2bimg.com/photo/109752810.cms'); 
+            background-repeat: repeat;
+            border: 10px solid transparent; 
+            border-image: url('https://etimg.etb2bimg.com/photo/109752810.cms') 30 repeat; 
+            border-image-slice: 30; 
+        }

@@ -1,0 +1,8 @@
+
+        .styled-text {
+            color: magenta;
+            text-align: right;
+            text-decoration: underline;
+            text-transform: uppercase;
+            text-indent: 60px;
+        }

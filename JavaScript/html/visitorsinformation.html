@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visitor Information Capture</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border: 1px solid #ccc;
+        }
+
+        th {
+            background-color: #f4f4f4;
+        }
+
+        .form-heading {
+            margin: 20px 0;
+            font-size: 24px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .form-group input[type="checkbox"], .form-group input[type="radio"] {
+            margin-right: 10px;
+        }
+
+        .form-actions {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="form-heading">Visitor Information</div>
+    <hr>
+
+    <form action="#" method="post">
+        <table>
+            <tr>
+                <th colspan="2">Please fill out the form below:</th>
+            </tr>
+            <tr>
+                <td>Email Address:</td>
+                <td><input type="email" name="email" required></td>
+            </tr>
+            <tr>
+                <td>Interests:</td>
+                <td>
+                    <input type="checkbox" name="interest" value="Research"> Research
+                    <input type="checkbox" name="interest" value="Purchase"> Purchase
+                </td>
+            </tr>
+            <tr>
+                <td>Occupation:</td>
+                <td>
+                    <select name="occupation">
+                        <option value="" disabled selected>Select one</option>
+                        <option value="student">Student</option>
+                        <option value="teacher">Teacher</option>
+                        <option value="engineer">Engineer</option>
+                        <option value="doctor">Doctor</option>
+                        <option value="other">Other</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Want us to send you junk emails?</td>
+                <td>
+                    <input type="radio" name="email_preference" value="absolutely"> Absolutely
+                    <input type="radio" name="email_preference" value="no_way"> No way man
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" class="form-actions">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>

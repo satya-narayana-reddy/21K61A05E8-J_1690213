@@ -1,0 +1,6 @@
+div {
+    border: 15px solid;
+    padding: 20px;
+    border-image: url('https://appian.com/adobe/dynamicmedia/deliver/dm-aid--36191fb0-b276-4de6-b33b-e5731b43d593/logo-wipro-1.png?preferwebp=true&quality=85&width=1200') 30 30 stretch;
+    border-image-slice: 30;
+}
